@@ -51,7 +51,8 @@ class LinkedList:
                 previous = current
                 current = current.getNext()
 
-        if previous == None:
+        # If node found is head
+        if previous is None:
             self.head = current.getNext()
         else:
             previous.setNext(current.getNext())
@@ -64,8 +65,8 @@ class LinkedList:
     def size(self):
         current = self.head
         count = 0
-        while current != None:
-            count = count + 1
+        while current is not None:
+            count += 1
             current = current.getNext()
 
         return count
@@ -75,7 +76,7 @@ class LinkedList:
     def search(self, item):
         current = self.head
         found = False
-        while current != None and not found:
+        while current is not None and not found:
             if current.getData() == item:
                 found = True
             else:
@@ -95,4 +96,3 @@ print(f"{myList.search(2)}")
 # Remove and check
 myList.remove(2)
 print(f"{myList.search(2)}")
-
