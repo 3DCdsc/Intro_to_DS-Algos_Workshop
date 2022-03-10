@@ -1,5 +1,5 @@
 # Intro to Data Structures & Algorithms Workshop
-![DSALgos](photo_2022-03-10 20.55.37.jpeg)
+![dsalgos](dsalgos.jpeg)
 The workshop is a one off workshop that aims to be a primer for Data Structures/Algorithms courses, as well as a 'what-to-expect' guide for technical interviews/
 
 # Pre-requisites
