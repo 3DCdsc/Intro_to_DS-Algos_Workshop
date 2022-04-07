@@ -7,5 +7,7 @@ The workshop is a one off workshop that aims to be a primer for Data Structures/
 - Lists
 - Object-oriented Programming in Python
 
+# Link to slides: https://docs.google.com/presentation/d/1laNeVK5hVegyM1CD6GTqkhZUrsSvMj4h0z_Q6oUKzTg/edit?usp=sharing
+
 # Files
 'src code' contains all Python code related to the course material
